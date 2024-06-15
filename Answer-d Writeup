@@ -1,0 +1,21 @@
+Answer d)
+
+I having already made such robot will do the following.
+For hardware, I will use a Raspberry pi along with LIDAR and Rpi Camera Module 3 Ultrawide for high resolution navidation for reading roadsigns and avoiding people.
+I will also add GPS module like Ublok Neo6m wil accuracy of 10meters.
+I will add arduino to control low level electronics along with motor, motor driver, encoder(to know how far it travelled).
+I will also add more ultrasonic sensors for locations that cant be covered using lidars.
+At last I will add a Lipo battery which will be lightweight unlike Li-ion cause more mass will make it difficult to balance.
+
+For software.
+I am learning ROS2 to have just started so it will be difficult to use that. Hence I will not be using ROS although it is the best solution for the application given.
+First I will make a PID controller loop running on arduino or more powerful controller like stm32 which will always maintain the balance of the robot.
+Then I will add ultrasonic sensors as last resort if something is not detected by Lidar in order to avoide collision.
+Above that will be running LIDAR on raspberry pi or my person favorite NVIDIA Orion. It really can run anything using those CUDA cores.
+Then I will be running openCV for things like lane detection, high level obstetrical detection and road sign recognition.
+It will run pathnavigation program like SLAM(simaltaneous localisation and mapping) along with GPS for reaching its desired location.
+It will also have an interrupt attached to emergency stop button which will stop all the loops except for the balancing PID loop.
+
+The writ-up is highly inspired from Ascento robot.
+Else, it does not have any refrences, as I told, I have made the robot myself therefore I do not need any refrence. =)
+
