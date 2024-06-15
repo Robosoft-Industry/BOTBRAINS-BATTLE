@@ -1,0 +1,4 @@
+a) Center of mass, wheel size, friction, motor accuracy, microcontroller response time, gyro sensor accuracy, encoder count resolution etc.
+b) Core concetpt of TWSBR is balancing on two wheels using Inverted pendulum theory. It also uses PID which stands for proportional, integral and derivative values according to the error which is the tilt angle in gyroscope.
+c) I require a microcontroller like arduino nano along with gyro sensor like MPU-6050. I also require a simple two channel motor driver like TB6612FNG or L293D along with motors and wheels.
+To make the robot more accurate, encoders on the motors can be used.
