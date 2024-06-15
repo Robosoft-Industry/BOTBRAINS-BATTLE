@@ -1,2 +1,2 @@
 # BOTBRAINS-BATTLE
-Submission Files
+Submission Files are present at the root folder
